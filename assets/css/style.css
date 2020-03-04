@@ -1,0 +1,30 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    height: 100%;
+    width: max-content;
+    background-color: black;
+}
+
+.kobeBryantSplash {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.display-4 {
+    font-size: 100px;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(75, 5, 142);
+    text-align: center;
+}
+
+.lead {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(255, 215, 0);
+    text-align: center;
+}
