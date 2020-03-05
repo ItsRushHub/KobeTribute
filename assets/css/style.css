@@ -28,3 +28,29 @@ body {
     color: rgb(255, 215, 0);
     text-align: center;
 }
+
+.kobeScore2 {
+    border-radius: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: rgb(255, 215, 0);
+    text-align: center;
+    text-shadow: 2px 2px 15px rgb(75, 5, 142), 0px 0px 20px white;
+}
+
+hr {
+    border: 0.5px solid rgb(75, 5, 142);
+}
+
+.nbaRank {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+    line-height: 1.75;
+}
