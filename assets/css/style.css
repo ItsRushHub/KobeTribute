@@ -54,3 +54,26 @@ hr {
     text-align: center;
     line-height: 1.75;
 }
+
+.kobeBio {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-align: justify;
+    line-height: 1.75;
+}
+
+.bioFooter {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(255, 215, 0);
+    text-align: left;
+}
+
+.kobeAbout {
+    float: right;
+    height: 100%;
+    width: 100%;
+}
