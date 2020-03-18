@@ -8,6 +8,8 @@ body {
     background-color: black;
 }
 
+/* Splash Page */
+
 .kobeBryantSplash {
     display: block;
     margin-left: auto;
@@ -29,9 +31,31 @@ body {
     text-align: center;
 }
 
-.kobeScore2 {
-    border-radius: 30px;
+hr {
+    border: 0.5px solid rgb(75, 5, 142);
 }
+
+#enterButton {
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(75, 5, 142);
+    color: rgb(255, 215, 0);
+    border-radius: 5px;
+    border-style:solid;
+    border-width:2px;
+    border-color: rgb(255, 215, 0);
+    padding: 5px;
+}
+
+#enterButton:hover {
+    color: rgb(75, 5, 142);
+    background-color: rgb(255, 215, 0);
+}
+
+
+/* About Page */
 
 h2 {
     font-size: 30px;
@@ -40,10 +64,45 @@ h2 {
     color: rgb(255, 215, 0);
     text-align: center;
     text-shadow: 2px 2px 15px rgb(75, 5, 142), 0px 0px 20px white;
+    margin-top: 30px;
 }
 
 hr {
-    border: 0.5px solid rgb(75, 5, 142);
+    margin-left: 20px;
+}
+
+.kobeBio {
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: white;
+    text-align: justify;
+    line-height: 1.75;
+    margin-left: 20px;
+}
+
+.kobeAbout {
+    float: right;
+    height: 100%;
+    width: 100%;
+}
+
+.bioFooter {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(255, 215, 0);
+    text-align: left;
+    margin-left: 20px;
+}
+
+/* Statics Page */
+
+.kobeScore2 {
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 .nbaRank {
@@ -55,25 +114,15 @@ hr {
     line-height: 1.75;
 }
 
-.kobeBio {
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    color: white;
-    text-align: justify;
-    line-height: 1.75;
+.kobeScore {
+    border-radius: 30px;
+    margin-top: 30px;
 }
 
-.bioFooter {
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
-    color: rgb(255, 215, 0);
-    text-align: left;
-}
+/* Highlight Page */
 
-.kobeAbout {
-    float: right;
-    height: 100%;
-    width: 100%;
+.kobeDefense {
+    border-radius: 30px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
