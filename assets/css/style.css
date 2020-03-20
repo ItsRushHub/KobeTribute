@@ -57,6 +57,14 @@ hr {
 
 /* About Page */
 
+.navbar-brand {
+    color: rgb(75, 5, 142);
+}
+.navbar-brand:hover {
+    color: rgb(255, 215, 0);
+    text-shadow: 2px 2px 15px rgb(75, 5, 142), 0px 0px 20px white;
+}
+
 h2 {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
@@ -121,8 +129,21 @@ hr {
 
 /* Highlight Page */
 
-.kobeDefense {
-    border-radius: 30px;
-    margin-left: 20px;
-    margin-top: 30px;
+.backgroundKobe {
+    background-image: url("../images/kobefistpump.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    background-color: black;
+    width: 900px;
+    height: 500px;
+    position: relative;
+}
+
+.bryantHighlights {
+    text-align: right;
+}
+
+.containerTop, .containerMiddle, .containerBottom {
+    padding-left: 350px;
 }
