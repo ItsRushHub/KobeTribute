@@ -108,7 +108,7 @@ hr {
 /* Statics Page */
 
 .kobeScore2 {
-    border-radius: 30px;
+    border-radius: 10px;
     margin-left: 20px;
     margin-top: 30px;
 }
@@ -122,8 +122,8 @@ hr {
     line-height: 1.75;
 }
 
-.kobeScore {
-    border-radius: 30px;
+.kobeDunk {
+    border-radius: 10px;
     margin-top: 30px;
 }
 
@@ -144,6 +144,23 @@ hr {
     text-align: right;
 }
 
-.containerTop, .containerMiddle, .containerBottom {
-    padding-left: 350px;
+.containerTop, .containerBottom {
+    padding-left: 400px;
+    padding-top: 10px;
+    float: right;
+}
+
+iframe {
+    box-shadow: 3px 2px 20px rgb(75, 5, 142);
+}
+
+/* Footer */
+p2, small {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    color:white;
+    font-size: 10px;
+    font-style:oblique;
+    font-weight: lighter;
+    padding-top: 30px;
 }
